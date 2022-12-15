@@ -21,7 +21,7 @@ header {
 }
 
 .input-box1 {
-    width: 92px;
+    width: 114px;
     position: absolute;
     top: 30px;
     left: 20px;
@@ -30,19 +30,34 @@ header {
 .input-box2 {
     display: inline-block;
     position: relative;
-    margin-top: 22px;
+    margin-top: 24px;
+    margin-left: 20px;
 }
 
 .input-box3 {
     height: 44px;
     border-radius: 22px;
-    width: 597px;
+    width: 744px;
     border: 1px solid #DFE1E5;
     padding: 0 21px;
     margin-left: 146px;
     font-size: 16px;
 }
 
-li {
-    text-decoration: none;
+#search-icon, #keyboard-icon, #mic-icon {
+    position: absolute;
+    top: 14px;
+    font-size: 18px;
+}
+
+#search-icon {
+    right: 16px;
+}
+
+#keyboard-icon {
+    right: 53px;
+}
+
+#mic-icon {
+    right: 88px;
 }
